@@ -36,7 +36,7 @@ client.on('message', message => {
     	var first = characters[randA];
     	var second = characters[randB];
       
-       message.reply(first+"/"+second);
+       message.reply(first+" & "+second);
 
        }
        
