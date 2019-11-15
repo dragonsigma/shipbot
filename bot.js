@@ -20,7 +20,7 @@ client.on('message', message => {
       var characters = ["Edelgard","Hubert","Ferdinand","Caspar","Linhardt","Bernadetta","Petra","Dorothea",
     				  "Claude","Hilda","Lorenz","Ignatz","Raphael","Lysithea","Leonie","Marianne",
     				  "Dimitri","Dedue","Felix","Sylvain","Ingrid","Ashe","Annette","Mercedes",
-    				  "Gatekeeper","Seteth","Flayn","Cyril","Catherine","Shamir"];
+    				  "Gatekeeper","Flayn","Cyril","Catherine","Shamir"];
 
     	var randA = Math.floor((Math.random() * 30) + 0);
     	var randB = Math.floor((Math.random() * 30) + 0);
