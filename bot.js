@@ -13,8 +13,16 @@ client.on('ready', () => {
  
 
 client.on('message', message => {
-
-    if (message.content === '!ship') {
+ 
+ if (message == "!coinflip"){   	
+    	var rand = Math.floor((Math.random() * 2) + 1)
+    	if (rand==1){
+			message.reply("Flipping coin - Heads!");
+    	}
+    	if (rand==2){	
+			message.reply("Flipping coin - Tails!");
+    	}
+    } else if (message.content === '!ship') {
 
 
       var characters = ["Edelgard","Hubert","Ferdinand","Caspar","Linhardt","Bernadetta","Petra","Dorothea",
