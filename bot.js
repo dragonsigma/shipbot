@@ -29,10 +29,10 @@ client.on('message', message => {
     				  "Claude","Hilda","Lorenz","Ignatz","Raphael","Lysithea","Leonie","Marianne",
     				  "Dimitri","Dedue","Felix","Sylvain","Ingrid","Ashe","Annette","Mercedes",
 				  "Yuri","Balthus","Constance","Hapi",
-    				  "Gatekeeper","Flayn","Cyril","Catherine","Shamir", "Seteth","Rhea","Hanneman","Manuela","Jeritza", "Alois" , "Jeralt"];
+    				  "Byleth","Gatekeeper","Flayn","Cyril","Catherine","Shamir", "Seteth","Rhea","Hanneman","Manuela","Jeritza", "Alois" , "Jeralt"];
 
-    	var randA = Math.floor((Math.random() * 40) + 0);
-    	var randB = Math.floor((Math.random() * 40) + 0);
+    	var randA = Math.floor((Math.random() * 41) + 0);
+    	var randB = Math.floor((Math.random() * 41) + 0);
     	
     	if (randA==randB){ 
     		var match = true;
